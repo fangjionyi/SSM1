@@ -1,17 +1,11 @@
 package net.togogo.bean;
 
-/**
- * Created with IntelliJ IDEA.
- * Description:
- * User: 方炯翊
- * Date: 2018-10-01
- * Time: 20:16
- */
+
 public class Users {
     private String name;
     private int age;
     private int num;
-
+   private int sex;
     public Users() {
     }
 
@@ -21,14 +15,16 @@ public class Users {
         this.num = num;
     }
 
-    public String getName() {
-        return name;
+   public int getSex(){
+   
+       return  sex;
+   }
+    
+    public void setSex(int sex){
+    
+        this.sex=sex;
     }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
+    
     public int getAge() {
         return age;
     }
