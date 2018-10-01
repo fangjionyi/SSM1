@@ -21,9 +21,7 @@ public class User {
         this.userPassword = userPassword;
     }
 
-    public int getUserId() {
-        return userId;
-    }
+
 
     public void setUserId(int userId) {
         this.userId = userId;
